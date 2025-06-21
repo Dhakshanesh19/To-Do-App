@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form-main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.form-main input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.form-main button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #c47011;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+
+
+
+.todoitem{
+  display: flex;
+justify-content: space-between;
+border: #333;
+border-radius: 20px;
+border-bottom: 1px solid #5c5858;
+padding: 8px;
+}
+span{
+  display: flex;
+  justify-content: end;
+}
+#delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 14px;
+  width: 20%;
+}
