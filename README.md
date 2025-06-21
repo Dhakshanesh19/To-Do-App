@@ -1,12 +1,43 @@
-# React + Vite
+# 📋 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List application built with React. This app allows users to:
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ✅ Add new todos
+- ✏️ Mark todos as complete/incomplete
+- 🗑️ Delete todos
+- 🎨 Clean, responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React**
+- **CSS**
+- **UUID** (for unique ID generation)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+my-todo-app/
+   ├── public/
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── TodoForm.jsx
+│ │ ├── TodoList.jsx
+│ ├── App.jsx
+│ ├── index.js
+│ └── App.css
+├── package.json
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🖥️ Installation & Setup
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd my-todo-app
+npm install
+npm start
+📃 License
+This project is licensed under the MIT License.
